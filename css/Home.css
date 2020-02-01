@@ -17,7 +17,7 @@
       background-position: center;
       background-size: cover;
       height: 400px;
-      flex-basis: 80%;
+      flex-basis: 68%;
       margin-top: 80px;
       
   }
@@ -25,13 +25,14 @@
   .container-2 {
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap-reverse;
       align-items: center;
       margin-top: 400px;
   }
   
   .ptext {
       
-      width: 25%;
+      width: 400px;
       text-align: left;
   }
   
@@ -40,7 +41,8 @@
       background-position: center;
       background-size: cover;
       height: 300px;
-      flex-basis: 350px;
+      flex-basis: 400px;
+      margin-bottom: 40px;
   }
   
   
