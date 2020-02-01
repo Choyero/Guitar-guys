@@ -1,0 +1,51 @@
+body {
+    
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+h1, h2 {
+    color: darkslategrey;
+}
+
+
+
+.nav-item {
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.name {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(204, 182, 182);
+}
+
+.space {
+    height: 300px;
+    
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 60px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+.inst {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+    
+    
+    

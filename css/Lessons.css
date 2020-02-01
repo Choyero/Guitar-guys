@@ -1,0 +1,99 @@
+body {
+    background-color: aliceblue;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 0;
+    
+}
+
+
+.inner-container1 {
+    flex-basis: 68%;
+}
+
+.ctext {
+    
+    line-height: 2rem;
+}
+
+#ctext-head {
+    color: darkslategrey;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.over-view {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 16%;
+    margin-right: 16%;
+    
+}
+
+.ov-content {
+    height: auto;
+    width: 400px;
+    background-color: rgb(204, 182, 182);
+    margin-bottom: 3%;
+    
+    
+}
+
+.ov-content h2  {
+   text-align: center;
+   color: darkslategrey;
+   font-weight: 700;
+}
+
+.ov-content2 p {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.ov-content hr {
+    border: 1px solid darkslategrey;
+}
+
+.list-container {
+    display: flex;
+    align-content: center;
+}
+
+.container2 {
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.lesson-item {
+    margin-left: 16%;
+    width: 68%;
+    background-color: whitesmoke;
+    margin-top: 1%;
+}
+
+.navbar-brand {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.nav-link2 {
+    font-weight: 200;
+    color: black;
+    line-height: 1rem;
+}
+
+
+
+
+

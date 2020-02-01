@@ -1,0 +1,49 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-img {
+    background-image: url(../images/about-img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    flex-basis: 68%;
+}
+
+.container2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16%;
+    margin-left: 16%;
+    flex-wrap: wrap;
+}
+
+.about-us, .testimony {
+    line-height: 2rem;
+    width: 500px;
+    height: auto;
+    
+}
+
+.about-us {
+    margin-bottom: 40px;
+    
+}
+
+.about-us h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.testimony h4 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimony p {
+    margin-bottom: 40px;
+    font-style: italic;
+}

@@ -1,0 +1,62 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  
+  
+  .container-1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+  }
+  
+  .mainpic {
+      background-image: url("../images/real.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      flex-basis: 80%;
+      margin-top: 80px;
+      
+  }
+  
+  .container-2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 400px;
+  }
+  
+  .ptext {
+      
+      width: 25%;
+      text-align: left;
+  }
+  
+  .img2 {
+      background-image: url("../images/learn.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 300px;
+      flex-basis: 350px;
+  }
+  
+  
+  .ptext2 {
+      order: 2;
+      
+  }
+  
+  .img2b {
+      background-image: url("../images/guitar3.jpg");
+      order: 1;
+  }
+  
+  .img2c {
+      background-image: url("../images/price.jpg");
+  }
+  
+  
+  
